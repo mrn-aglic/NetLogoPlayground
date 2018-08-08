@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.picocontainer:picocontainer:2.13.6:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.picocontainer/picocontainer/jars/picocontainer-2.13.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.picocontainer/picocontainer/srcs/picocontainer-2.13.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

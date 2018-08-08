@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="netlogoplayground$sources"
+		revision="0.1"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180727144132"/>
+	<dependencies>
+		<module organisation="org.nlogo" name="netlogo">
+			<revision name="6.0.4" status="release" pubdate="20180614171406" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="GPL-2.0" url="http://opensource.org/licenses/GPL-2.0"/>
+				<metadata-artifact status="no" details="" size="6162" time="0" location="/Users/Marin/.ivy2/cache/org.nlogo/netlogo/ivy-6.0.4.xml" searched="false" origin-is-local="false" origin-location="https://dl.bintray.com/content/netlogo/NetLogo-JVM/org/nlogo/netlogo/6.0.4/netlogo-6.0.4.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="6.0.4" rev-constraint-default="6.0.4" rev-constraint-dynamic="6.0.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlogo" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2751231" time="0" location="/Users/Marin/.ivy2/cache/org.nlogo/netlogo/srcs/netlogo-6.0.4-sources.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/content/netlogo/NetLogo-JVM/org/nlogo/netlogo/6.0.4/netlogo-6.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.1" status="release" pubdate="20160924145320" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2875" time="0" location="/Users/Marin/.ivy2/cache/com.typesafe/config/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="170512" time="0" location="/Users/Marin/.ivy2/cache/com.typesafe/config/srcs/config-1.3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fifesoft" name="rsyntaxtextarea">
+			<revision name="2.6.0" status="release" pubdate="20160917230511" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.fifesoft.com/rsyntaxtextarea/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Modified BSD License" url="http://fifesoft.com/rsyntaxtextarea/RSyntaxTextArea.License.txt"/>
+				<metadata-artifact status="no" details="" size="3327" time="0" location="/Users/Marin/.ivy2/cache/com.fifesoft/rsyntaxtextarea/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fifesoft/rsyntaxtextarea/2.6.0/rsyntaxtextarea-2.6.0.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="rsyntaxtextarea" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1378895" time="0" location="/Users/Marin/.ivy2/cache/com.fifesoft/rsyntaxtextarea/srcs/rsyntaxtextarea-2.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fifesoft/rsyntaxtextarea/2.6.0/rsyntaxtextarea-2.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.json-simple" name="json-simple">
+			<revision name="1.1.1" status="release" pubdate="20120321061134" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/json-simple/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2986" time="0" location="/Users/Marin/.ivy2/cache/com.googlecode.json-simple/json-simple/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="json-simple" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17445" time="0" location="/Users/Marin/.ivy2/cache/com.googlecode.json-simple/json-simple/srcs/json-simple-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpmime">
+			<revision name="4.2" status="release" pubdate="20120517142650" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Apache License" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="8189" time="0" location="/Users/Marin/.ivy2/cache/org.apache.httpcomponents/httpmime/ivy-4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.2/httpmime-4.2.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="4.2" rev-constraint-default="4.2" rev-constraint-dynamic="4.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpmime" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26816" time="0" location="/Users/Marin/.ivy2/cache/org.apache.httpcomponents/httpmime/srcs/httpmime-4.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.2/httpmime-4.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jogamp.gluegen" name="gluegen-rt">
+			<revision name="2.3.2" status="release" pubdate="20151010162802" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jogamp.org/gluegen/www/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD-2 License" url="http://www.opensource.org/licenses/BSD-2-Clause"/>
+				<license name="BSD-3 License" url="http://www.opensource.org/licenses/BSD-3-Clause"/>
+				<license name="BSD-4 License" url="http://www.spdx.org/licenses/BSD-4-Clause"/>
+				<metadata-artifact status="no" details="" size="2750" time="0" location="/Users/Marin/.ivy2/cache/org.jogamp.gluegen/gluegen-rt/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jogamp/gluegen/gluegen-rt/2.3.2/gluegen-rt-2.3.2.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="gluegen-rt" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4156001" time="0" location="/Users/Marin/.ivy2/cache/org.jogamp.gluegen/gluegen-rt/srcs/gluegen-rt-2.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jogamp/gluegen/gluegen-rt/2.3.2/gluegen-rt-2.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled_2.12">
+			<revision name="2.1.3" status="release" pubdate="20161103175444" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3122" time="0" location="/Users/Marin/.ivy2/cache/org.parboiled/parboiled_2.12/ivy-2.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/parboiled/parboiled_2.12/2.1.3/parboiled_2.12-2.1.3.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="2.1.3" rev-constraint-default="2.1.3" rev-constraint-dynamic="2.1.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="parboiled_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53480" time="0" location="/Users/Marin/.ivy2/cache/org.parboiled/parboiled_2.12/srcs/parboiled_2.12-2.1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/parboiled/parboiled_2.12/2.1.3/parboiled_2.12-2.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.12">
+			<revision name="2.3.2" status="release" pubdate="20161102105049" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3226" time="0" location="/Users/Marin/.ivy2/cache/com.chuusai/shapeless_2.12/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="shapeless_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="163673" time="0" location="/Users/Marin/.ivy2/cache/com.chuusai/shapeless_2.12/srcs/shapeless_2.12-2.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.12">
+			<revision name="1.1.1" status="release" pubdate="20161102094258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="/Users/Marin/.ivy2/cache/org.typelevel/macro-compat_2.12/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="macro-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1052" time="0" location="/Users/Marin/.ivy2/cache/org.typelevel/macro-compat_2.12/srcs/macro-compat_2.12-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.10" status="release" pubdate="20141106151500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<metadata-artifact status="no" details="" size="10380" time="0" location="/Users/Marin/.ivy2/cache/commons-codec/commons-codec/ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="301032" time="0" location="/Users/Marin/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.10-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.16" status="release" pubdate="20100331062544" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3492" time="0" location="/Users/Marin/.ivy2/cache/log4j/log4j/ivy-1.2.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="1.2.16" rev-constraint-default="1.2.16" rev-constraint-dynamic="1.2.16" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="log4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="471225" time="0" location="/Users/Marin/.ivy2/cache/log4j/log4j/srcs/log4j-1.2.16-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.picocontainer" name="picocontainer">
+			<revision name="2.13.6" status="release" pubdate="20110707192458" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<metadata-artifact status="no" details="" size="7192" time="0" location="/Users/Marin/.ivy2/cache/org.picocontainer/picocontainer/ivy-2.13.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/picocontainer/picocontainer/2.13.6/picocontainer-2.13.6.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="2.13.6" rev-constraint-default="2.13.6" rev-constraint-dynamic="2.13.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="picocontainer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="200185" time="0" location="/Users/Marin/.ivy2/cache/org.picocontainer/picocontainer/srcs/picocontainer-2.13.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/picocontainer/picocontainer/2.13.6/picocontainer-2.13.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-all">
+			<revision name="5.0.4" status="release" pubdate="20150515170542" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3961" time="0" location="/Users/Marin/.ivy2/cache/org.ow2.asm/asm-all/ivy-5.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.0.4/asm-all-5.0.4.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="5.0.4" rev-constraint-default="5.0.4" rev-constraint-dynamic="5.0.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="asm-all" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1039794" time="0" location="/Users/Marin/.ivy2/cache/org.ow2.asm/asm-all/srcs/asm-all-5.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.0.4/asm-all-5.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-typographic">
+			<revision name="0.20.0" status="release" pubdate="20170622031307" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10137" time="0" location="/Users/Marin/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-typographic/ivy-0.20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.20.0/flexmark-ext-typographic-0.20.0.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="0.20.0" rev-constraint-default="0.20.0" rev-constraint-dynamic="0.20.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="flexmark-ext-typographic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10538" time="0" location="/Users/Marin/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-typographic/srcs/flexmark-ext-typographic-0.20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.20.0/flexmark-ext-typographic-0.20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-escaped-character">
+			<revision name="0.20.0" status="release" pubdate="20170622031355" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10155" time="0" location="/Users/Marin/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-escaped-character/ivy-0.20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.20.0/flexmark-ext-escaped-character-0.20.0.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="0.20.0" rev-constraint-default="0.20.0" rev-constraint-dynamic="0.20.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="flexmark-ext-escaped-character" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6485" time="0" location="/Users/Marin/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-escaped-character/srcs/flexmark-ext-escaped-character-0.20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.20.0/flexmark-ext-escaped-character-0.20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-autolink">
+			<revision name="0.20.0" status="release" pubdate="20170622031310" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10387" time="0" location="/Users/Marin/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-autolink/ivy-0.20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.20.0/flexmark-ext-autolink-0.20.0.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="0.20.0" rev-constraint-default="0.20.0" rev-constraint-dynamic="0.20.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="flexmark-ext-autolink" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3399" time="0" location="/Users/Marin/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-autolink/srcs/flexmark-ext-autolink-0.20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.20.0/flexmark-ext-autolink-0.20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-formatter">
+			<revision name="0.20.0" status="release" pubdate="20170622031350" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="9965" time="0" location="/Users/Marin/.ivy2/cache/com.vladsch.flexmark/flexmark-formatter/ivy-0.20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.20.0/flexmark-formatter-0.20.0.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="0.20.0" rev-constraint-default="0.20.0" rev-constraint-dynamic="0.20.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="flexmark-formatter" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20642" time="0" location="/Users/Marin/.ivy2/cache/com.vladsch.flexmark/flexmark-formatter/srcs/flexmark-formatter-0.20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.20.0/flexmark-formatter-0.20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.nibor.autolink" name="autolink">
+			<revision name="0.6.0" status="release" pubdate="20161106134904" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/robinst/autolink-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3275" time="0" location="/Users/Marin/.ivy2/cache/org.nibor.autolink/autolink/ivy-0.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="autolink" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12188" time="0" location="/Users/Marin/.ivy2/cache/org.nibor.autolink/autolink/srcs/autolink-0.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.0.5" status="release" pubdate="20161216145947" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2918" time="0" location="/Users/Marin/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="file:////Users/Marin/.sbt/preloaded/org.scala-lang.modules/scala-parser-combinators_2.12/1.0.5/ivys/ivy.xml"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43232" time="0" location="/Users/Marin/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.0.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/scala-parser-combinators_2.12-1.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.6" status="release" pubdate="20180427044006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="4">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2640" time="0" location="/Users/Marin/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="file:////Users/Marin/.sbt/preloaded/org.scala-lang/scala-library/2.12.6/ivys/ivy.xml"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="992293" time="0" location="/Users/Marin/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.10" status="release" pubdate="20110929211223" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2897" time="0" location="/Users/Marin/.ivy2/cache/junit/junit/ivy-4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="4.10" rev-constraint-default="4.10" rev-constraint-dynamic="4.10" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="junit" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="141185" time="0" location="/Users/Marin/.ivy2/cache/junit/junit/srcs/junit-4.10-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/junit/junit/4.10/junit-4.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-core">
+			<revision name="1.1" status="release" pubdate="20070718211143" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="BSD style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="4340" time="0" location="/Users/Marin/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="hamcrest-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="327" time="0" location="/Users/Marin/.ivy2/cache/org.hamcrest/hamcrest-core/srcs/hamcrest-core-1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.2" status="release" pubdate="20120517142639" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache License" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="8621" time="0" location="/Users/Marin/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2/httpclient-4.2.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="4.2" rev-constraint-default="4.2" rev-constraint-dynamic="4.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="517581" time="0" location="/Users/Marin/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2/httpclient-4.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20071126212410" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<metadata-artifact status="no" details="" size="4097" time="0" location="/Users/Marin/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="74976" time="0" location="/Users/Marin/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.2" status="release" pubdate="20120501142135" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache License" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="6554" time="0" location="/Users/Marin/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2/httpcore-4.2.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="4.2" rev-constraint-default="4.2" rev-constraint-dynamic="4.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="321252" time="0" location="/Users/Marin/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2/httpcore-4.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark">
+			<revision name="0.20.0" status="release" pubdate="20170622031321" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="10107" time="0" location="/Users/Marin/.ivy2/cache/com.vladsch.flexmark/flexmark/ivy-0.20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.20.0/flexmark-0.20.0.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="0.20.0" rev-constraint-default="0.20.0" rev-constraint-dynamic="0.20.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="flexmark" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="167910" time="0" location="/Users/Marin/.ivy2/cache/com.vladsch.flexmark/flexmark/srcs/flexmark-0.20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.20.0/flexmark-0.20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-util">
+			<revision name="0.20.0" status="release" pubdate="20170622031337" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="9616" time="0" location="/Users/Marin/.ivy2/cache/com.vladsch.flexmark/flexmark-util/ivy-0.20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.20.0/flexmark-util-0.20.0.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="0.20.0" rev-constraint-default="0.20.0" rev-constraint-dynamic="0.20.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="flexmark-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="144605" time="0" location="/Users/Marin/.ivy2/cache/com.vladsch.flexmark/flexmark-util/srcs/flexmark-util-0.20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.20.0/flexmark-util-0.20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jogamp.jogl" name="jogl-all">
+			<revision name="2.3.2" status="release" pubdate="20151010163557" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jogamp.org/jogl/www/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="BSD-2 License" url="http://www.opensource.org/licenses/BSD-2-Clause"/>
+				<license name="BSD-3 License" url="http://www.opensource.org/licenses/BSD-3-Clause"/>
+				<license name="SGI Free Software License B" url="http://oss.sgi.com/projects/FreeB"/>
+				<license name="Apache License Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Apache License Version 1.1" url="http://www.apache.org/licenses/LICENSE-1.1"/>
+				<license name="Ubuntu Font Licence 1.0" url="http://font.ubuntu.com/ufl/ubuntu-font-licence-1.0.txt"/>
+				<metadata-artifact status="no" details="" size="3051" time="0" location="/Users/Marin/.ivy2/cache/org.jogamp.jogl/jogl-all/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jogamp/jogl/jogl-all/2.3.2/jogl-all-2.3.2.pom"/>
+				<caller organisation="default" name="netlogoplayground$sources" conf="compile, runtime-internal, runtime, optional" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jogl-all" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24220878" time="0" location="/Users/Marin/.ivy2/cache/org.jogamp.jogl/jogl-all/srcs/jogl-all-2.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jogamp/jogl/jogl-all/2.3.2/jogl-all-2.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
